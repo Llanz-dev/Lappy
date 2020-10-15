@@ -90,7 +90,7 @@ label{
 }
 
 h4{
-    color: green;
+    color: rgb(40, 115, 255);
 }
 
 /* About Lappy */
@@ -239,22 +239,16 @@ hr{
 
 /* Openings */
 
-.openings{
-    height: 105vh;
-    position: relative;
+.opening-desc{
+    margin-top: 6rem;
 }
 
 .applyNow{
-    margin: 8% 0 0;  
-    display: grid; 
-    grid-template-columns: 90% 24%;
-    grid-column-gap: 60%;
-}
-
-.opening-desc{
-    position: absolute;
-    top: 20%;
-    left: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% auto;
+    width: 70%;
 }
 
 .applyBtn{
@@ -263,6 +257,7 @@ hr{
     padding: 8% 18%;
     border: none;
     margin-top: 5%;
+    margin-left: 20%;
 }
 
 .applyBtn:hover{
@@ -455,12 +450,6 @@ footer a {
         margin-left: 31%;
     }
 
-    /* openings */
-    
-    .opening-desc{
-        left: 9%;
-    }
-
     /* Copyright */
 
     .copyright{
@@ -550,12 +539,6 @@ footer a {
         right: 3%;
     }
 
-    /* openings */
-    
-    .opening-desc{
-        left: 7%;
-    }
-
     /* Footer */
 
     .col{
@@ -577,12 +560,6 @@ footer a {
 
     .nav{    
         margin-left: 25%;
-    }
-
-    /* openings */
-    
-    .opening-desc{
-        left: 6%;
     }
 }
 
@@ -606,16 +583,6 @@ footer a {
     .nav{    
         margin-left: 23%;
     }
-
-    /* Openings */
-
-    .applyNow{
-        grid-column-gap: 40%;
-    }
-
-    .opening-desc{
-        left: 10%;
-    }
 }
 
 /* 1129px */
@@ -626,12 +593,6 @@ footer a {
 
     .nav{    
         margin-left: 23%;
-    }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 9%;
     }
 
     /* Footer */
@@ -669,12 +630,6 @@ footer a {
         margin-left: 21%;
     }
 
-    /* Openings */
-
-    .opening-desc{
-        left: 10%;
-    }
-
     .team header{
         width: 80%;
     }
@@ -701,12 +656,6 @@ footer a {
     .nav{    
         margin-left: 20%;
     }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 8%;
-    }
 }
 
 /* 1080px */
@@ -728,28 +677,6 @@ footer a {
 
     .nav{    
         margin-left: 23%;
-    }
-
-    /* Openings */
-
-    .applyNow{
-        grid-column-gap: 35%;
-    }
-
-    .opening-desc{
-        left: 10%;
-    }
-
-}
-
-/* 1070px*/
-
-@media only screen and (max-width: 1070px){
-
-    /* Openings */
-
-    .opening-desc{
-        left: 9%;
     }
 }
 
@@ -781,12 +708,6 @@ footer a {
     label{
         position: relative;
         left: 22rem;
-    }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 8%;
     }
 
      /* Copyright */
@@ -829,12 +750,6 @@ footer a {
         width: 2.5rem;
         height: 2.5rem;
     }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 7%;
-    }
 }
 
 /* 1010px */
@@ -854,32 +769,11 @@ footer a {
         width: 50%;
     }
 
-    /* Openings */
-
-    .opening-desc{
-        left: 6%;
-    }
-
     /* Copyright */
 
     .copyright{
         margin-right: 9rem;
     }    
-}
-
-/* 980px */
-
-@media only screen and (max-width: 980px){
-
-    /* Openings */
-
-    .applyNow{
-        grid-column-gap: 25%;
-    }
-
-    .opening-desc{
-        left: 8%;
-    }
 }
 
 /* 955px */
@@ -904,27 +798,6 @@ footer a {
 
     .team header{
         width: 70%;
-    }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 7%;
-    }
-
-}
-
-@media only screen and (max-width: 935px){
-
-    /* Openings */
-
-    .applyNow{
-        grid-template-columns: 70% 24%;
-        grid-column-gap: 25%;
-    }
-
-    .opening-desc{
-        left: 11%;
     }
 }
 
@@ -988,11 +861,6 @@ footer a {
         font-size: .8rem;
     }
 
-    .applyNow{
-        grid-template-columns: 80% 24%;
-        grid-column-gap: 35%;
-    }
-
     .applyBtn {
         background-color: #0E76A8;
         color: white;
@@ -1000,11 +868,6 @@ footer a {
         border: none;
         font-size: .9rem;
         margin-top: 15%;
-    }
-
-    .opening-desc{
-        position: absolute;
-        top: 15%;
     }
 
     /* Copyright */
@@ -1111,13 +974,6 @@ footer a {
     .card-text {
         font-size: 0.7rem;
     }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 9%;
-        top: 18%;
-    }
 }
 
 /* 813px */
@@ -1134,12 +990,6 @@ footer a {
         position: relative;
         left: 35%;
     }  
-
-    /* Openings */
-
-    .opening-desc{
-        left: 7%;
-    }
 }
 
 /* 780px */
@@ -1241,22 +1091,6 @@ footer a {
     .copyright{
         position: relative;
         left: 5rem;
-    }
-}
-
-/* 730 */
-
-@media only screen and (max-width: 730px){
-
-    /* Openings */
-
-    .opening-desc{
-        left: 12%;
-    }
-
-    .applyNow{
-        grid-template-columns: 70% 24%;
-        grid-column-gap: 20%;
     }
 }
 
@@ -1474,12 +1308,6 @@ footer a {
     .small-title {
         font-size: .9rem;
     }
-
-    /* Openings */
-
-    .opening-desc{
-        left: 8%;
-    }
 }
 
 /* 650 */
@@ -1499,23 +1327,6 @@ footer a {
 
     .card-text {
         font-size: 0.5rem;
-    }
-
-}
-
-/* 640 */
-
-@media only screen and (max-width: 640px){
-
-    /* Openings */
-
-    .opening-desc{
-        left: 12%;
-    }
-
-    .applyNow{
-        grid-template-columns: 60% 24%;
-        grid-column-gap: 15%;
     }
 
 }
@@ -1617,12 +1428,6 @@ footer a {
         padding: .5rem;
     }
 
-    /* Openings */
-
-    .opening-desc{
-        left: 8%;
-    }
-
     /* copyright */
 
     .copyright{
@@ -1682,11 +1487,6 @@ footer a {
 
     /* Openings */
 
-    .applyNow{
-        grid-template-columns: 60% 24%;
-        grid-column-gap: 20%;
-    }
-
     .openings p {
         font-size: 0.7rem;
     }
@@ -1718,7 +1518,6 @@ footer a {
         position: relative;
         left: 4rem;
     }
-    
 
     /* Copyright */
 
